@@ -1,0 +1,6 @@
+@Apagame.backend_HostAddress = http://localhost:5105
+
+GET {{Apagame.backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

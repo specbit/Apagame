@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apagame.shared", "Apagame.shared\Apagame.shared.csproj", "{C4969A9D-5F2B-4D7C-94A4-DA7FCC68B5D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apagame.backend", "Apagame.backend\Apagame.backend.csproj", "{36DD3D2D-D2D6-42D4-A225-1B1F2F7CC8F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4969A9D-5F2B-4D7C-94A4-DA7FCC68B5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4969A9D-5F2B-4D7C-94A4-DA7FCC68B5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4969A9D-5F2B-4D7C-94A4-DA7FCC68B5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4969A9D-5F2B-4D7C-94A4-DA7FCC68B5D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36DD3D2D-D2D6-42D4-A225-1B1F2F7CC8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36DD3D2D-D2D6-42D4-A225-1B1F2F7CC8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36DD3D2D-D2D6-42D4-A225-1B1F2F7CC8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36DD3D2D-D2D6-42D4-A225-1B1F2F7CC8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AF46243-5E63-489E-8AE6-D393C34DE1B1}
+	EndGlobalSection
+EndGlobal
