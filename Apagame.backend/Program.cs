@@ -1,3 +1,5 @@
+using Apagame.backend.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Apagame.backend
 {
@@ -13,6 +15,10 @@ namespace Apagame.backend
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            // Add Entity Framework Core with SQL Server
+            builder.Services.AddDbContext<DataContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("LocalConnection")));
 
             var app = builder.Build();
 
